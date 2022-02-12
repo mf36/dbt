@@ -1,0 +1,36 @@
+
+
+============================== 2022-02-12 18:45:23.636550 | 1cf232b7-4555-401f-a5e9-53ce49609bdf ==============================
+18:45:23.636550 [info ] [MainThread]: Running with dbt=1.0.1
+18:45:23.636550 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='C:\\Users\\Marc-\\.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, project_name='prj', skip_profile_setup=False, defer=None, state=None, cls=<class 'dbt.task.init.InitTask'>, which='init', rpc_method=None)
+18:45:23.636550 [debug] [MainThread]: Tracking: tracking
+18:45:23.667802 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000212AA2159A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000212AA215F40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000212AA215F10>]}
+18:45:23.667802 [debug] [MainThread]: Starter project path: C:\Users\Marc-\anaconda3\envs\dbt\lib\site-packages\dbt\include\starter_project
+18:45:32.447769 [info ] [MainThread]: 
+Your new dbt project "prj" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+18:45:32.447769 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000212AA215A60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000212AA2159D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000212AA21B1C0>]}
+
+
+============================== 2022-02-12 18:48:24.699048 | a3b2d6ac-49ec-4aec-9102-0a3828e166b3 ==============================
+18:48:24.699048 [info ] [MainThread]: Running with dbt=1.0.1
+18:48:24.700053 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='C:\\Users\\Marc-\\.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, config_dir=False, defer=None, state=None, cls=<class 'dbt.task.debug.DebugTask'>, which='debug', rpc_method=None)
+18:48:24.700053 [debug] [MainThread]: Tracking: tracking
+18:48:24.734088 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D56B7A6A30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D56B7A6460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D56B7A6670>]}
+18:48:24.776403 [debug] [MainThread]: Executing "git --help"
+18:48:24.874485 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+18:48:24.874485 [debug] [MainThread]: STDERR: "b''"
+18:48:24.874485 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D56B7B66D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D56B8C9C70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D56B8C9130>]}
